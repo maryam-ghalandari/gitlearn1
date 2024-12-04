@@ -1,0 +1,10 @@
+.ads {
+  width: 100%vw;
+  height: 10%vh;
+  background-color: blueviolet;
+  color: yellow;
+}
+.ads h3{
+  text-align: center;
+  direction: rtl;
+}

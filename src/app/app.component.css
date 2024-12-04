@@ -1,0 +1,8 @@
+.topmenu{
+  /* display: flex; */
+  text-align: right;
+  text-decoration: none;
+}
+.topmenu a {
+  font-size: smaller;
+}
