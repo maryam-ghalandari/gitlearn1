@@ -1,0 +1,21 @@
+p{
+  color: purple;
+  margin-top: 3em;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.newp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+  height: 10%vh;
+  background-color: purple;
+  overflow-x: scroll;
+}
+img{
+  border-radius: 10%;
+  margin: 0.5em;
+}
+

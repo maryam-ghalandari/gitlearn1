@@ -1,0 +1,17 @@
+.menu{
+  background-color: purple;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7em;
+}
+div a{
+  text-decoration: none;
+  color: white;
+  padding: 0.7em;
+}
+.menu a:hover {
+  /* color: pink; */
+  background-color: pink;
+  color: black;
+  font-size: 110%;
+}

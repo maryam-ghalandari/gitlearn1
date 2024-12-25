@@ -1,0 +1,14 @@
+p{
+  margin-top: 3em;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.brands{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10%vh;
+  overflow-y: scroll;
+}

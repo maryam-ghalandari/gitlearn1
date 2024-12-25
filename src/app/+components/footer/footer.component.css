@@ -1,0 +1,72 @@
+.containerfooter{
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  justify-content: space-between;
+}
+.lastarticles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.lastarticles img{
+  width: 10em;
+  height: 10em;
+}
+.A{
+  margin-top: 1em;
+  background-color: white;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4em;
+  }
+   p{
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+  }
+  .A img{
+    border-radius: 10%;
+  }
+.footermenu{
+  /* direction: rtl; */
+  text-align: right;
+  margin-right: 4em;
+  margin-top: 2em;
+  font-size: large;
+
+}
+.footermenu a{
+  display: block;
+  color: white;
+  padding: 0.3em;
+  text-decoration: none;
+}
+.footermenu :hover{
+  color: yellow;
+  font-weight: bold;
+  padding: 0.3em;
+  text-decoration: none;
+}
+.certificates{
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-left: 20em;
+  margin-top: 5em;
+  width: 6em;
+  height: 6em;
+}
+.MC{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

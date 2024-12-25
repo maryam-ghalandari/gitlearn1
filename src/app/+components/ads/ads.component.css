@@ -1,0 +1,12 @@
+div{
+  direction: rtl;
+  min-height: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  color: yellow;
+  font-size: large;
+  font-weight: bold;
+}
+

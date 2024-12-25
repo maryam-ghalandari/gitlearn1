@@ -1,0 +1,17 @@
+p{
+  color: purple;
+  margin-top: 3em;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.newp{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 10%vh;
+}
+img{
+  margin: 0.5em;
+}
+

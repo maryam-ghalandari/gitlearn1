@@ -1,0 +1,69 @@
+p{
+  color: blueviolet;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+  margin-top: 5em;
+}
+
+.discounts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10%vh;
+  background-color:blueviolet ;
+  border-radius: 1%;
+  overflow: scroll;
+}
+.p5{
+  background-color: white;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 2%;
+  margin: 2em;
+}
+.title5 h5{
+  text-align: center;
+}
+.title5 h4{
+  text-align: center;
+}
+.title5 h2{
+  text-align: center;
+}
+
+
+.p6{
+  background-color: white;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 2%;
+  margin: 2em;
+}
+.title6 h5{
+  text-align: center;
+}
+.title6 h4{
+  text-align: center;
+}
+.title6 h2{
+  text-align: center;
+}
+
+.p7{
+  background-color: white;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 2%;
+  margin: 2em;
+}
+.title7 h5{
+  text-align: center;
+}
+.title7 h4{
+  text-align: center;
+}
+.title7 h2{
+  text-align: center;
+}
