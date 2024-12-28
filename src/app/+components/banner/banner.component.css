@@ -1,12 +1,10 @@
 
 .banners{
-  width: 100% vw;
-  height: auto;
-  padding: 2em;
+  display: inline-block;
+  width: 100vw;
   text-align: center;
-}
-img {
-  /* display: inline-block; */
+  box-sizing: content-box;
+  padding: 1em;
 }
 
 
