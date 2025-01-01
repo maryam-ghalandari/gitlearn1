@@ -1,18 +1,33 @@
-p{
-  color: blueviolet;
-  margin-top: 1em;
+.maintitle{
+  color: purple;
+  margin-top: 3em;
   text-align: center;
   font-size: x-large;
   font-weight: bolder;
 }
-.newp{
+.discounts{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 10%vh;
   background-color: blueviolet;
-  overflow-x: scroll;
+  overflow-x: none;
 }
+.title{
+  width: 15em;
+  text-align: center;
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  font-size: medium;
+  }
+  .price{
+    width: 15em;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: bold;
+  }
 img{
   border-radius: 10%;
   margin: 0.5em;

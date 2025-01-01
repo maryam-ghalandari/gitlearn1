@@ -1,7 +1,7 @@
 
 .banners{
   display: inline-block;
-  width: 100vw;
+  width: 100%;
   text-align: center;
   box-sizing: content-box;
   padding: 1em;

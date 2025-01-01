@@ -37,10 +37,9 @@
     border-radius: 10%;
   }
 .footermenu{
-  /* direction: rtl; */
   text-align: right;
   margin-right: 4em;
-  margin-top: 2em;
+  margin: 2em 2em;
   font-size: large;
 
 }

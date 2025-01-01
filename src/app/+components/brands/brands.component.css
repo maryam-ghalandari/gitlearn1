@@ -9,6 +9,6 @@ p{
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  height: 10%vh;
+  margin-bottom: 3em;
   overflow-y: scroll;
 }

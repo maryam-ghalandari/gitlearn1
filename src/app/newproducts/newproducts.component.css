@@ -1,4 +1,4 @@
-p{
+.maintitle{
   color: purple;
   margin-top: 3em;
   text-align: center;
@@ -9,13 +9,26 @@ p{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* align-items: center; */
-  height: 10%vh;
-  background-color: purple;
-  overflow-x: scroll;
+  background-color: blueviolet;
+  overflow-x: none;
 }
+.title{
+  width: 15em;
+  text-align: center;
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+  font-size: medium;
+  }
+  .price{
+    width: 15em;
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+    text-align: center;
+    font-weight: bold;
+  }
 img{
   border-radius: 10%;
   margin: 0.5em;
 }
-

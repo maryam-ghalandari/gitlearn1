@@ -1,17 +1,41 @@
-.menu{
+.main-menu {
   background-color: purple;
-  display: flex;
-  justify-content: space-between;
-  padding: 0.7em;
+  text-align: right;
 }
-div a{
-  text-decoration: none;
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-menu li {
+  display: inline-block;
+  position: relative;
+}
+
+.main-menu a {
+  display: block;
   color: white;
-  padding: 0.7em;
+  padding: 15px 20px;
+  text-decoration: none;
 }
-.menu a:hover {
-  /* color: pink; */
-  background-color: pink;
+.main-menu li :hover{
+font-weight: bold;
+color: palevioletred;
+}
+
+.main-menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+}
+
+.main-menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu a{
   color: black;
-  font-size: 110%;
 }
