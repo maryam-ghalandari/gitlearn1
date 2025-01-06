@@ -1,6 +1,6 @@
 @font-face {
-  font-family: persian ;
-  src: url(/fonts/IRANSans/Web.woff2);
+  font-family: vazir ;
+  src: url ('/fonts/VazirBlackFD.woff2');
 }
 body{
   margin: 0;
@@ -8,6 +8,6 @@ body{
   overflow: scroll;
 }
 *{
-  font-family: persian;
+  font-family: vazir;
 }
 
