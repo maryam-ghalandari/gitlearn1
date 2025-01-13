@@ -1,13 +1,4 @@
-.containerlogo {
-  display: flex;
-  direction: rtl;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
 .logo img {
-  text-align: right;
   width: 15vw;
   height: auto;
   transition: all 1s;
@@ -15,22 +6,3 @@
 .logo :hover{
   transform: scale(1.2);
 }
-.search input {
-  width: 30em;
-  padding: 1em;
-  margin: 0 1em;
-  border: 1px solid grey;
-  border-radius: 5px;
-}
-.links{
-  display: flex;
-}
-.links a{
-  background-color: purple;
-  color: white;
-  padding: 0.7em;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-left: 1em;
- }
-

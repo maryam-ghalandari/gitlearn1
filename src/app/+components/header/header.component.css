@@ -1,0 +1,24 @@
+.HeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  padding: 0.2em;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+/* .search-input {
+  width: 100px;
+} */
+.links {
+  display: flex;
+  margin-right: 13rem; 
+}
+.links a{
+background-color: purple;
+}
+
+

@@ -15,6 +15,7 @@ import { LogoComponent } from './+components/logo/logo.component';
 import { MainCategoryComponent } from './+components/main-category/main-category.component';
 import { BestsellersComponent } from './+components/bestsellers/bestsellers.component';
 import { NewproductsComponent } from './+components/newproducts/newproducts.component';
+import { HeaderComponent } from './+components/header/header.component';
 
 
 
@@ -22,12 +23,13 @@ import { NewproductsComponent } from './+components/newproducts/newproducts.comp
   selector: 'app-root',
   imports: [
     RouterOutlet,
-    LogoComponent, BannerComponent,
+    HeaderComponent, BannerComponent,
     AdsComponent, MenuComponent, DiscountsComponent,
     FooterComponent, CopyrightsComponent,
     BrandsComponent, ProductComponent,
     MainCategoryComponent, HomepageComponent, LoginpageComponent,
-    BuybasketpageComponent, BestsellersComponent, NewproductsComponent ],
+    BuybasketpageComponent, BestsellersComponent, NewproductsComponent
+   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
