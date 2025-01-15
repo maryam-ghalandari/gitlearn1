@@ -1,11 +1,11 @@
 
-/* .banners{
-  display: flex; */
-  /* width: 900px; */
-  /* text-align: center; */
-  /* box-sizing: content-box; */
-  /* padding: 1em; */
-/* } */
-
-
-
+.banners{
+overflow: hidden;
+/* padding-top: 1em; */
+}
+.banners img{
+  width: 100vw;
+  /* scrollbar-width: none; */
+  text-align: center;
+  box-sizing: content-box;
+}

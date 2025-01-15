@@ -3,11 +3,10 @@
     align-items: center;
   }
   .search input {
-    width: 30rem;
+    width: 25rem;
     padding: 1em;
-    margin: 0 1em;
+    margin: 0 0.8em;
     border: 1px solid grey;
     border-radius: 5px;
   }
-  
-  
+

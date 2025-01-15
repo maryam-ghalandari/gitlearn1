@@ -2,17 +2,22 @@
   <ul>
     <li> <a routerLink="/brands"> برندها </a></li>
       <li>
-          <a routerLink="/cosmetics"> آرایشی </a>
-          <ul class="sub-menu">
+          <a (click)="showHide()" routerLink="/cosmetics"> آرایشی </a>
+          @if (isMenuVisibe) {
+
+            <ul class="sub-menu">
               <li><a href=""> پوست </a></li>
               <li><a href=""> چشم  </a></li>
               <li><a href=""> ابرو </a></li>
               <li><a href=""> لب </a></li>
-          </ul>
+            </ul>
+          }
       </li>
       <li>
-          <a routerLink="/skincare"> مراقبت پوست </a>
-          <ul class="sub-menu">
+          <a (click)="showHide()" routerLink="/skincare"> مراقبت پوست </a>
+          @if (isMenuVisibe) {
+
+            <ul class="sub-menu">
               <li><a href=""> ضد آفتاب </a></li>
               <li><a href=""> سرم پوست </a></li>
               <li><a href=""> دور چشم </a></li>
@@ -20,25 +25,32 @@
               <li><a href=""> ضد آکنه </a></li>
               <li><a href=""> ضد لک </a></li>
               <li><a href=""> شوینده </a></li>
-          </ul>
+            </ul>
+          }
       </li>
       <li>
-        <a routerLink="/haircare"> مراقبت مو </a>
-        <ul class="sub-menu">
+        <a (click)="showHide()" routerLink="/haircare"> مراقبت مو </a>
+        @if (isMenuVisibe) {
+
+          <ul class="sub-menu">
             <li><a href=""> رنگ مو </a></li>
             <li><a href=""> شامپو </a></li>
             <li><a href=""> ماسک  </a></li>
             <li><a href=""> نرم کننده </a></li>
             <li><a href=""> اسپری </a></li>
-        </ul>
+          </ul>
+        }
     </li>
     <li>
-        <a routerLink="/tools"> لوازم و تجهیزات </a>
-        <ul class="sub-menu">
+        <a (click)="showHide()" routerLink="/tools"> لوازم و تجهیزات </a>
+        @if (isMenuVisibe) {
+
+          <ul class="sub-menu">
             <li><a href=""> برقی </a></li>
             <li><a href=""> براش و پد اسفنجی  </a></li>
             <li><a href="">  شانه و برس </a></li>
         </ul>
+      }
     </li>
     <li> <a routerLink="/men"> آقایان </a></li>
     <li> <a routerLink="/mom-baby"> مادر و کودک </a></li>

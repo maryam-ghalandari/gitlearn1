@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   direction: rtl;
-  padding: 0.2em;
+  padding: 0.9em;
 }
 
 .search {
@@ -15,7 +15,7 @@
 } */
 .links {
   display: flex;
-  margin-right: 13rem; 
+  margin-right: 13rem;
 }
 .links a{
 background-color: purple;

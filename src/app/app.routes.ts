@@ -8,6 +8,7 @@ import { HaircareComponent } from './+pages/haircare/haircare.component';
 import { ToolsComponent } from './+pages/tools/tools.component';
 import { MenComponent } from './+pages/men/men.component';
 import { MomBabyComponent } from './+pages/mom-baby/mom-baby.component';
+import { Component } from '@angular/core';
 
 export const routes: Routes = [
 { path: '', redirectTo: '/homepage', pathMatch: 'full'},
@@ -19,5 +20,5 @@ export const routes: Routes = [
 {path: 'haircare', component: HaircareComponent},
 {path: 'tools', component: ToolsComponent},
 {path: 'men', component: MenComponent},
-{path: 'mom-baby', component: MomBabyComponent}
+{path: 'mom-baby', component: MomBabyComponent},
 ];

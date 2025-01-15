@@ -16,6 +16,7 @@ import { MainCategoryComponent } from './+components/main-category/main-category
 import { BestsellersComponent } from './+components/bestsellers/bestsellers.component';
 import { NewproductsComponent } from './+components/newproducts/newproducts.component';
 import { HeaderComponent } from './+components/header/header.component';
+import { ButtonComponent } from './+components/button/button.component';
 
 
 
@@ -28,7 +29,8 @@ import { HeaderComponent } from './+components/header/header.component';
     FooterComponent, CopyrightsComponent,
     BrandsComponent, ProductComponent,
     MainCategoryComponent, HomepageComponent, LoginpageComponent,
-    BuybasketpageComponent, BestsellersComponent, NewproductsComponent
+    BuybasketpageComponent, BestsellersComponent, NewproductsComponent,
+    ButtonComponent
    ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

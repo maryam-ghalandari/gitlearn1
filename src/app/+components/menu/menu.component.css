@@ -20,11 +20,15 @@
   padding: 15px 20px;
   text-decoration: none;
 }
-.main-menu li :hover{
+
+.main-menu>ul>li>a:hover{
+font-weight: bold;
+color: yellow;
+}
+.main-menu>ul>li>ul>li :hover{
 font-weight: bold;
 color: blue;
 }
-
 .main-menu .sub-menu {
   display: none;
   position: absolute;

@@ -1,3 +1,21 @@
 <div>
   <a routerLink="/loginpage">ورود/عضویت</a>
 </div>
+
+<div>
+  <div>
+    <input [class.error]=""username=='' [(ngModel)]="username" type="username" placeholder="username:">
+    @if (username=='') {
+      <span>Required</span>
+    }
+  </div>
+  <div>
+    <input [(ngModel)]="password" type="password" placeholder="password:">
+  </div>
+</div>
+<div>
+  <button [disabled]="username=='' || password=='' " (click)="login()">Login</button>
+</div>
+<div>
+  <button (click)="reset()">Reset</button>
+</div>
