@@ -11,12 +11,12 @@ import { ProductComponent } from './+components/product/product.component';
 import { HomepageComponent } from './+pages/homepage/homepage.component';
 import { LoginpageComponent } from './+pages/loginpage/loginpage.component';
 import { BuybasketpageComponent } from './+pages/buybasketpage/buybasketpage.component';
-import { LogoComponent } from './+components/logo/logo.component';
 import { MainCategoryComponent } from './+components/main-category/main-category.component';
 import { BestsellersComponent } from './+components/bestsellers/bestsellers.component';
 import { NewproductsComponent } from './+components/newproducts/newproducts.component';
 import { HeaderComponent } from './+components/header/header.component';
 import { ButtonComponent } from './+components/button/button.component';
+import { ProductsComponent } from './+components/products/products.component';
 
 
 
@@ -30,7 +30,7 @@ import { ButtonComponent } from './+components/button/button.component';
     BrandsComponent, ProductComponent,
     MainCategoryComponent, HomepageComponent, LoginpageComponent,
     BuybasketpageComponent, BestsellersComponent, NewproductsComponent,
-    ButtonComponent
+    ButtonComponent, ProductsComponent
    ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
